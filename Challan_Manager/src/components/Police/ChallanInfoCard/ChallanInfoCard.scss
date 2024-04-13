@@ -1,0 +1,45 @@
+.challan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  .challan-img {
+    width: 200px;
+    height: 200px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+
+  .right-container {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: normal;
+
+    .challan-id {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .amount {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+  }
+}

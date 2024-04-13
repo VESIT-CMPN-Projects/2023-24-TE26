@@ -1,0 +1,61 @@
+.challan {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+    img {
+      object-fit: cover;
+      width: 25em;
+      height: auto;
+      border-radius: 10%;
+    }
+
+    .rightside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1rem;
+        font-family: poppins;
+        .rightcontainer{
+          display: flex;
+          justify-content: space-between;
+          .challan_id {
+            font-family: poppins;
+            font-weight: bold;
+            font-size: x-large;
+          }
+          .amount {
+            
+            font-weight: bold;
+            font-size: x-large;
+          }
+       }
+       .video {
+        align-self: center;
+        padding: 1em 1em;
+       }
+
+
+      .buttons{
+        display: flex;
+        justify-content: end;
+        // margin-top: 1rem;
+      }
+
+      .line {
+        border: none;
+        height: 1px;
+        background: rgb(216, 216, 216);
+        margin: 15px 0;
+      }
+    }
+    
+  
+    
+  }

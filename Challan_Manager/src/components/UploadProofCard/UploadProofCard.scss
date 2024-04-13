@@ -1,0 +1,77 @@
+.challan {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+    img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .rightside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1rem;
+        .rightcontainer{
+          display: flex;
+          justify-content: space-between;
+        }
+        .proof-section {
+          margin-top: 20px;
+          padding: 10px;
+          border: 2px dashed #555;
+          border-radius: 8px;
+          margin: 20px auto 20px auto;
+    
+          input {
+            margin-bottom: 10px;
+          }
+    
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+    
+            li {
+              margin-bottom: 8px;
+    
+              button {
+                margin-left: 10px;
+                padding: 5px 10px;
+                background-color: #e74c3c;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+    
+                &:hover {
+                  background-color: #c0392b;
+                }
+              }
+            }
+          }
+        }
+      .buttons{
+        display: flex;
+        justify-content: end;
+        // margin-top: 1rem;
+      }
+
+      .line {
+        border: none;
+        height: 1px;
+        background: linear-gradient(to right, transparent, rgba(0, 0, 0,1), transparent);
+        margin: 15px 0;
+      }
+    }
+    
+  
+    
+  }

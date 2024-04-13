@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+  // padding: 20px 0; /* Increased padding for better spacing */
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text color */
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+  bottom: 0;
+  margin-top: 1rem;
+
+  .operated-by,
+  .helpdesk {
+    flex: 1; /* Equal distribution of space for both sections */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Added padding for better spacing */
+    position: relative; /* Position relative for absolute positioning of line */
+  }
+
+  .operated {
+    font-weight: bold;
+    color: #4c4c4c; /* Dark grey text color */
+  }
+
+  .help {
+    font-weight: bold;
+    color: #2c2c2c; /* Slightly darker grey text color */
+  }
+
+  .division-line {
+    position: absolute;
+    height: 60%;
+    width: 2px; /* Width of the line */
+    background-color: rgb(30, 30, 101); /* Blue color for the line */
+    left: 50%; /* Positioning the line in the middle */
+    transform: translateX(-50%); /* Adjusting position to center */
+    top: 20%; /* Aligning the line with the top of the section */
+  }
+
+  .phone-icon {
+    width: 20px; /* Adjust the width of the phone icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+}

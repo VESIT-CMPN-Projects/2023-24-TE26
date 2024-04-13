@@ -1,0 +1,34 @@
+.item{
+    font-weight: bold;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem;
+}
+.police_container {
+    padding: 1rem;
+}
+.vehicle-number-input {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+    input[type='text'] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      outline: none;
+  
+      &::placeholder {
+        color: #999;
+      }
+    }
+  }
+  

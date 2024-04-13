@@ -1,0 +1,40 @@
+[
+    {
+        "vehicle_no": "MH 12 1234",
+        "chassis_no": "123456789",
+        "challans":[{
+            "challan_id": "8T530A1340",
+            "reason": "Red Light Skip",
+            "location": "Ulhasnagar, Thane, 421003",
+            "amount": 2500,
+            "img": "https://example.com/image1.jpg"
+        },
+        {
+            "challan_id": "4K920B2771",
+            "reason": "Illegal Parking",
+            "location": "Pune, Maharashtra, 411001",
+            "amount": 1500,
+            "img": "https://example.com/image2.jpg"
+        }
+    ]
+    },
+    {
+        "vehicle_no": "MH 12 1235",
+        "chassis_no": "1234567890",
+        "challans":[{
+            "challan_id": "6P489D5497",
+            "reason": "No Helmet",
+            "location": "Bengaluru, Karnataka, 560001",
+            "amount": 1000,
+            "img": "https://example.com/image4.jpg"
+        },
+        {
+            "challan_id": "1L173F4582",
+            "reason": "Signal Jumping",
+            "location": "Kolkata, West Bengal, 700001",
+            "amount": 1800,
+            "img": "https://example.com/image6.jpg"
+        }
+        ]
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+      "challan_id": "8T530A1340",
+      "reason": "Red Light Skip",
+      "location": "Ulhasnagar, Thane, 421003",
+      "amount": 2500,
+      "img": "https://example.com/image1.jpg"
+    },
+    {
+      "challan_id": "4K920B2771",
+      "reason": "Illegal Parking",
+      "location": "Pune, Maharashtra, 411001",
+      "amount": 1500,
+      "img": "https://example.com/image2.jpg"
+    },
+    {
+      "challan_id": "2W786C8923",
+      "reason": "Over Speeding",
+      "location": "Delhi, Delhi, 110001",
+      "amount": 3000,
+      "img": "https://example.com/image3.jpg"
+    },
+    {
+      "challan_id": "6P489D5497",
+      "reason": "No Helmet",
+      "location": "Bengaluru, Karnataka, 560001",
+      "amount": 1000,
+      "img": "https://example.com/image4.jpg"
+    },
+    {
+      "challan_id": "9R354E7162",
+      "reason": "Wrong Lane Driving",
+      "location": "Mumbai, Maharashtra, 400001",
+      "amount": 2000,
+      "img": "https://example.com/image5.jpg"
+    },
+    {
+      "challan_id": "1L173F4582",
+      "reason": "Signal Jumping",
+      "location": "Kolkata, West Bengal, 700001",
+      "amount": 1800,
+      "img": "https://example.com/image6.jpg"
+    },
+    {
+      "challan_id": "3J269G6250",
+      "reason": "Driving Without Seatbelt",
+      "location": "Chennai, Tamil Nadu, 600001",
+      "amount": 1200,
+      "img": "https://example.com/image7.jpg"
+    },
+    {
+      "challan_id": "7V101H8463",
+      "reason": "Expired License",
+      "location": "Hyderabad, Telangana, 500001",
+      "amount": 2800,
+      "img": "https://example.com/image8.jpg"
+    },
+    {
+      "challan_id": "5M492I9724",
+      "reason": "Illegal U-turn",
+      "location": "Jaipur, Rajasthan, 302001",
+      "amount": 1600,
+      "img": "https://example.com/image9.jpg"
+    },
+    {
+      "challan_id": "0Q357J3158",
+      "reason": "Drunken Driving",
+      "location": "Ahmedabad, Gujarat, 380001",
+      "amount": 3500,
+      "img": "https://example.com/image10.jpg"
+    }
+  ]

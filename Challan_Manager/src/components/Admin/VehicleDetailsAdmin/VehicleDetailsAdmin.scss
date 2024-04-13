@@ -1,0 +1,21 @@
+.detail-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.item{
+    font-weight: bold;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem;
+    margin: auto 20px;
+    .item {
+        max-width: 100vw;
+    }
+}

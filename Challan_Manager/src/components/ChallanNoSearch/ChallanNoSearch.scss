@@ -1,0 +1,57 @@
+.container {
+    padding: 2rem;
+    border: 1px solid #555;
+    margin: 100px 60px;
+    box-shadow: 5px 5px 10px #555;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      .input-group {
+        display: flex;
+        flex-direction: column;
+  
+        label {
+          margin-bottom: 5px;
+          color: #333;
+          font-weight: bold;
+        }
+  
+        input {
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+  
+      .recaptcha {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .button-group {
+        margin-top: 15px;
+        text-align: center; /* Center the button */
+  
+        button {
+          padding: 5px 10px; /* Smaller padding for smaller button */
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #0056b3; /* Hover effect */
+          }
+        }
+      }
+    }
+  }
+  

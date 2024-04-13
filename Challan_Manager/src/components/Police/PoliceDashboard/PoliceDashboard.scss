@@ -1,0 +1,29 @@
+.item{
+    font-weight: bold;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem;
+}
+.police_container {
+    padding: 2rem;
+}
+.vehicle-number-input {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: block;
+    input {
+        padding: 8px 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
+.add-challenge-button {
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    z-index: 10;
+}

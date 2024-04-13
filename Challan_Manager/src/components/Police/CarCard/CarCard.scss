@@ -1,0 +1,37 @@
+.challan {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding: 1rem;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  .rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+
+    .rightcontainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .vehicle-info {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
